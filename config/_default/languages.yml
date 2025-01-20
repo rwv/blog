@@ -1,0 +1,34 @@
+en:
+  languageCode: en
+  languageName: English
+  title: rwv's Blog
+  menu:
+    main:
+      - name: Archive
+        url: archives
+        weight: 5
+      - name: Search
+        url: search
+        weight: 10
+      - name: Tags
+        url: tags
+        weight: 15
+      - name: Homepage
+        url: https://rwv.dev
+zh:
+  languageCode: zh-CN
+  languageName: 中文
+  title: 紫菜博客
+  menu:
+    main:
+      - name: 归档
+        url: archives
+        weight: 5
+      - name: 搜索
+        url: search
+        weight: 10
+      - name: 标签
+        url: tags
+        weight: 15
+      - name: 主页
+        url: https://rwv.dev

@@ -1,0 +1,7 @@
+baseURL: https://blog.rwv.dev/
+languageCode: zh
+title: 紫菜
+theme: PaperMod
+
+defaultContentLanguage: zh
+defaultContentLanguageInSubdir: false

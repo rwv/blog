@@ -22,3 +22,4 @@ editPost:
   URL: "https://github.com/rwv/blog/blob/main/content"
   appendFilePath: true # to append file path to Edit link
 ShowCodeCopyButtons: true
+comments: true

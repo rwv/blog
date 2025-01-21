@@ -15,6 +15,12 @@ en:
         weight: 15
       - name: Homepage
         url: https://rwv.dev
+  params:
+    description: "rwv's Blog, sharing my journey."
+    homeInfoParams:
+      Title: "rwv's Blog"
+      Content: >
+        👋 Welcome to rwv's Blog!
 zh:
   languageCode: zh-CN
   languageName: 中文
@@ -32,3 +38,9 @@ zh:
         weight: 15
       - name: 主页
         url: https://rwv.dev
+  params:
+    description: "紫菜博客，记录 rwv 的点点滴滴"
+    homeInfoParams:
+      Title: "紫菜博客"
+      Content: >
+        👋 欢迎来到紫菜博客！

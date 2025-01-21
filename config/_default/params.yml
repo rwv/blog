@@ -5,7 +5,19 @@ ShowShareButtons: true
 ShowPostNavLinks: true
 ShowFullTextinRSS: true
 ShowWordCount: true
-
+socialIcons:
+  - name: other
+    title: Homepage
+    url: "https://rwv.dev"
+  - name: github
+    title: Github
+    url: "https://github.com/rwv"
+  - name: email
+    title: Contact me via email
+    url: "mailto:i@rwv.dev"
+  - name: rss
+    title: RSS
+    url: "index.xml"
 editPost:
   URL: "https://github.com/rwv/blog/blob/main/content"
   appendFilePath: true # to append file path to Edit link

@@ -21,10 +21,14 @@ en:
       Title: "rwv's Blog"
       Content: >
         👋 Welcome to rwv's Blog!
+
+        - 👨‍💻 Here I mainly share tech-related articles, and occasionally record some life moments.
+
+        - 🐙 This blog is open source! You can find the source code at [rwv/blog](https://github.com/rwv/blog).
 zh:
   languageCode: zh-CN
   languageName: 中文
-  title: 紫菜博客
+  title: rwv 的博客
   menu:
     main:
       - name: 归档
@@ -39,8 +43,12 @@ zh:
       - name: 主页
         url: https://rwv.dev
   params:
-    description: "紫菜博客，记录 rwv 的点点滴滴"
+    description: "rwv 的博客，记录 rwv 的点点滴滴"
     homeInfoParams:
-      Title: "紫菜博客"
+      Title: "rwv 的博客"
       Content: >
-        👋 欢迎来到紫菜博客！
+        👋 欢迎来到 rwv 的博客！
+
+        - 👨‍💻 这里主要分享技术相关的文章，偶尔也会记录一些生活点滴。
+
+        - 🐙 博客是开源的！可以在 [rwv/blog](https://github.com/rwv/blog) 找到源代码。

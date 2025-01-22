@@ -9,6 +9,7 @@ tags:
   - Linux
 aliases:
   - /2018/01/31/python-pyenv-virturalenv-安装、设置与使用/
+  - /2018/02/01/python-pyenv-virturalenv-安装、设置与使用/
 ---
 
 Python 的版本兼容性一直都是个大问题，做好版本之间的隔离就显得格外重要。pyenv 可以很好地管理不同的 Python 版本并且切换自如。本文简略介绍了 pyenv 和 virturalenv 的安装、设置与使用。

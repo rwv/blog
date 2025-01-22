@@ -12,6 +12,7 @@ tags:
   - autojump
 aliases:
   - /2018/01/31/WSL-中-autojump-出现-autojump-chpwd-4-nice-5-failed-operation-not-permitted-的解决方案/
+  - /2018/02/01/WSL-中-autojump-出现-autojump-chpwd-4-nice-5-failed-operation-not-permitted-的解决方案/
 ---
 
 在 Windows Subsystem for Linux 中使用 autojump 时，会出现 `autojump_chpwd:4: nice(5) failed: operation not permitted` 的错误提示并且到达了对应的目录，虽说不影响使用，但错误提示仍非常恼人。

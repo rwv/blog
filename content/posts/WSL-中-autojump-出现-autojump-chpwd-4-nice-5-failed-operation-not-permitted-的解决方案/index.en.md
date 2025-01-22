@@ -8,7 +8,7 @@ tags:
   - WSL
   - Windows Subsystem for Linux
   - autojump
-url: /posts/solution-for-autojump-chpwd-4-nice-5-failed-operation-not-permitted-error-in-wsl/
+slug: solution-for-autojump-chpwd-4-nice-5-failed-operation-not-permitted-error-in-wsl
 ---
 
 When using autojump in Windows Subsystem for Linux (WSL), you might see this error message:

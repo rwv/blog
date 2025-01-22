@@ -6,7 +6,7 @@ tags:
   - Projects
   - ZeroTier
   - Docker
-url: /en/posts/create-a-zerotier-moon-node-with-docker-in-two-commands/
+slug: create-a-zerotier-moon-node-with-docker-in-two-commands
 ---
 
 While creating a ZeroTier moon node isn't overly complex, it does involve several steps. To simplify this process, I've created a Docker image that lets you set up a moon node with just two commands.

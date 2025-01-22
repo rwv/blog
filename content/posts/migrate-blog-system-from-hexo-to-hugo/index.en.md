@@ -108,6 +108,14 @@ comments: true
 ></script>
 ```
 
+### Configuring GitHub Actions
+
+I'm using GitHub Actions to automatically deploy the blog to both Cloudflare Pages and GitHub Pages for better disaster recovery (although such scenarios are unlikely). In the future, I might deploy to more platforms, possibly even IPFS, though I'm skeptical about IPFS's stability.
+
+You can find the specific code in [.github/workflows/ci.yml](https://github.com/rwv/blog/blob/92193c6f296febeaa402d69097126b30d61cff7d/.github/workflows/ci.yml)
+
+Why not use Cloudflare Pages' own build system? Because Cloudflare Pages has concurrent build limitations, and their Hugo version is too old to compile successfully. GitHub Actions' build system is more reliable.
+
 ## Open Source
 
 Taking advantage of this migration, I've made the blog open source. The project is available at [rwv/blog](https://github.com/rwv/blog), and you can find the 'Edit' button at the top of each article to go directly to the source code. Here's the specific configuration:

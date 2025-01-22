@@ -107,9 +107,17 @@ comments: true
 ></script>
 ```
 
+### 配置 GitHub Actions
+
+使用 GitHub Actions 自动部署博客，同时部署到 Cloudflare Pages 和 GitHub Pages，为了更好的灾备（虽然基本上不会发生这种事）。后续可能会部署到更多平台上，甚至 IPFS，虽然对 IPFS 的稳定性持怀疑态度。
+
+具体代码可以参见 [.github/workflows/ci.yml](https://github.com/rwv/blog/blob/92193c6f296febeaa402d69097126b30d61cff7d/.github/workflows/ci.yml)
+
+为什么不使用 Cloudflare Pages 自己的构建系统？因为 Cloudflare Pages 的构建有并发数限制，而且 Hugo 的版本也太老了，编译不成功。还是 GitHub Actions 的构建系统靠谱。
+
 ## 开源
 
-借此迁移的机会，将博客开源了，项目地址在 [rwv/blog](https://github.com/rwv/blog)，你也可以找到在文章前面的 `编辑` 按钮直达文章源代码。具体配置代码如下：
+借此迁移的机会，将博客开源了，项目地址在 [rwv/blog](https://github.com/rwv/blog)，你也可以找到在文章前面的 `编辑` 按钮直达文章源代码。具体编辑的配置代码如下：
 
 ```yaml
 editPost:

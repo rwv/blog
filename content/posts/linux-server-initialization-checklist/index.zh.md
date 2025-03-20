@@ -80,8 +80,8 @@ sysctl -p
 apt install -y chrony
 nano /etc/chrony/chrony.conf
 # 添加以下时间服务器
-# server time.google.com iburst
-# server time.cloudflare.com iburst
+# pool time.cloudflare.com iburst nts
+# pool time.google.com iburst
 systemctl restart chrony
 ```
 

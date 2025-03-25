@@ -78,7 +78,7 @@ sysctl -p
 
 ```bash
 apt install -y chrony
-nano /etc/chrony/chrony.conf
+nano /etc/chrony/sources.d/corps.sources
 ```
 
 ```bash
@@ -89,7 +89,7 @@ pool time.cloudflare.com iburst nts
 ```
 
 ```bash
-systemctl restart chrony
+chronyc reload sources
 ```
 
 ## Configure DNS Service (systemd-resolved)

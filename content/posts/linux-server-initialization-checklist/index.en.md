@@ -79,9 +79,16 @@ sysctl -p
 ```bash
 apt install -y chrony
 nano /etc/chrony/chrony.conf
+```
+
+```bash
 # Add the following time servers:
-# pool time.cloudflare.com iburst nts
-# pool time.google.com iburst
+pool time.apple.com iburst
+pool time.google.com iburst
+pool time.cloudflare.com iburst nts
+```
+
+```bash
 systemctl restart chrony
 ```
 
@@ -91,10 +98,16 @@ systemctl restart chrony
 apt install -y systemd-resolved
 systemctl enable --now systemd-resolved
 nano /etc/systemd/resolved.conf
+```
+
+```bash
 # TODO: Use sed to configure Cloudflare DNS and fallback DNS
-# DNS=1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com
-# FallbackDNS=8.8.8.8#dns.google 8.8.4.4#dns.google
-# DNSOverTLS=yes
+DNS=1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com 2606:4700:4700::1111#cloudflare-dns.com 2606:4700:4700::1001#cloudflare-dns.com
+FallbackDNS=8.8.8.8#dns.google 8.8.4.4#dns.google 2001:4860:4860::8888#dns.google 2001:4860:4860::8844#dns.google 9.9.9.9#dns.quad9.net 149.112.112.112#dns.quad9.net 2620:fe::fe#dns.quad9.net 2620:fe::9#dns.quad9.net
+DNSOverTLS=yes
+```
+
+```bash
 systemctl restart systemd-resolved
 ```
 
